@@ -1,0 +1,72 @@
+[
+  {
+    "model": "myapp.ent",
+    "pk": "1",
+    "fields": {
+      "ent_1": "poipoi",
+      "ent_2": "sadfasdfasdfasdf",
+      "ent_3": "werwerqwer"
+    }
+  },  {
+    "model": "myapp.ent",
+    "pk": "2",
+    "fields": {
+      "ent_1": "fasdf",
+      "ent_2": "nmjmjm",
+      "ent_3": "vfvf"
+    }
+  },  {
+    "model": "myapp.ent",
+    "pk": "3",
+    "fields": {
+      "ent_1": "fewfqefq",
+      "ent_2": "yuikyikuyu",
+      "ent_3": "nhjdfsf"
+    }
+  },  {
+    "model": "myapp.ent",
+    "pk": "4",
+    "fields": {
+      "ent_1": ",oiuyujyujyuj",
+      "ent_2": ",ukyhfewf",
+      "ent_3": "cdscdvfvfbrfbhyn"
+    }
+  },
+  {
+    "model": "myapp.det",
+    "pk": "1",
+    "fields": {
+      "fk_ent": "1",
+      "det_1": "2",
+      "det_2": "234",
+      "det_3": "52"
+    }
+  },  {
+    "model": "myapp.det",
+    "pk": "2",
+    "fields": {
+      "fk_ent": "1",
+      "det_1": "52",
+      "det_2": "4",
+      "det_3": "665"
+    }
+  },  {
+    "model": "myapp.det",
+    "pk": "3",
+    "fields": {
+      "fk_ent": "3",
+      "det_1": "848",
+      "det_2": "6454",
+      "det_3": "363"
+    }
+  },  {
+    "model": "myapp.det",
+    "pk": "4",
+    "fields": {
+      "fk_ent": "4",
+      "det_1": "33",
+      "det_2": "6456",
+      "det_3": "63"
+    }
+  }
+]

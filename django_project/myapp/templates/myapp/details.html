@@ -1,0 +1,18 @@
+<table>
+    <thead>
+    <tr>
+        <th>det1</th>
+        <th>det2</th>
+        <th>det3</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for o in object_list %}
+        <tr>
+            <td><a href="{% url 'myapp:ajaxview' %}" class="test">{{ o.det_1 }}</a></td>
+            <td><a href="{% url 'myapp:ajaxview' %}" class="test">{{ o.det_2 }}</a></td>
+            <td><a href="{% url 'myapp:ajaxview' %}" class="test">{{ o.det_3 }}</a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>

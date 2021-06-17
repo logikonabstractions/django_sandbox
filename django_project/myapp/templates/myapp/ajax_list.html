@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block body %}
+    <p>this is a p</p>
+    <button id="test">click me</button>
+<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th>pk</th>
+            <th>ent_1</th>
+            <th>ent_2</th>
+            <th>ent_3</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for o in object_list %}
+
+            <tr>
+                <td>{{ o.pk }}</td>
+                <td>{{ o.ent_1 }}</td>
+                <td>{{ o.ent_2 }}</td>
+                <td>{{ o.ent_3 }}</td>
+            </tr>
+
+    {% endfor %}
+    </tbody>
+</table>
+
+<div id="details">
+
+</div>
+
+{% endblock body %}
